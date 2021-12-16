@@ -1,0 +1,98 @@
+body{
+    overflow-x: hidden;
+}
+
+html{scroll-behavior:smooth}
+
+nav{
+    background-color: transparent;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    border-bottom: solid 2px #D15424;
+    
+    a{
+        color: #D15424 !important;
+    }
+}
+
+header{
+    height: 50vh;
+}
+
+header, section, footer{
+    width: 100vw;
+}
+
+header{
+    background: url(../img/gris0.jpg) no-repeat center 140% fixed;
+}
+
+#presentation, #series, #musiques, #futur{
+    padding: 6vh 5vw;
+
+    iframe{
+        border: solid 4px #D13624;
+    }
+
+    h2{
+        margin: 20px 0;
+        color: #D13624;
+    }
+
+    h3{
+        color: #D15424;
+    }
+    
+    p{
+        padding: 0 2vw;
+    }
+}
+
+#presentation, #series{
+    background-color: #1A1A1A;
+    border-top: solid 4px #D13624;
+
+    p{
+        color: #F5E9D1;
+    }
+}
+
+#musiques, #futur{
+    background-color: #F5E9D1;
+}
+
+#musiques{
+    h3>span:hover{
+        color: #1A1A1A;
+    }
+}
+
+#series{
+    h3>span:hover{
+        color: #F5E9D1;
+    }
+}
+
+footer{
+    background-color: #1A1A1A;
+    padding: 3vh;
+
+    ul{
+        text-align: center;
+    }
+
+    li{
+        display: inline-block;
+        margin: 0 20px;
+
+        a{
+            color: #F5E9D1;
+        }
+
+        a:hover{
+            text-decoration: none;
+            color: #D13624;
+        }
+    }
+}
